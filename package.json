@@ -1,0 +1,16 @@
+{
+  "name": "Raw-Node-Proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=staging&& nodemon index.js",
+    "production": "set NODE_ENV=production&& nodemon index.js"
+  },
+  "author": "HMWAIO",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.11.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
